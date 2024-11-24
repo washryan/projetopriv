@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Amor Além dos Universos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="universe">
+        <div id="stars"></div>
+        <div id="celestial-bodies">
+            <div id="sun"></div>
+            <div id="moon"></div>
+        </div>
+        <h1 id="love-message">Nosso amor transcende o universo</h1>
+        
+        <div id="photo-section" class="section hidden">
+            <img src="casal.jpeg" alt="Nós dois juntos" id="couple-photo">
+            <p id="support-message">Juntos, superaremos qualquer desafio. Estarei sempre ao seu lado.</p>
+        </div>
+        
+        <div id="countdown" class="section hidden">
+            <h2>Contagem regressiva para uma data especial</h2>
+            <input type="date" id="date-input">
+            <div id="countdown-timer"></div>
+        </div>
+        
+        <div id="love-generator" class="section hidden">
+            <h2>Mensagem de Amor do Dia</h2>
+            <p id="random-love-message"></p>
+            <button id="generate-message">Nova Mensagem</button>
+        </div>
+        
+        <div id="memory-gallery" class="section hidden">
+            <h2>Nossas Memórias</h2>
+            <div id="carousel">
+                <img src="memoria1.jpeg" alt="Memória 1">
+                <img src="memoria2.jpeg" alt="Memória 2">
+                <img src="memoria3.jpeg" alt="Memória 3">
+                <img src="memoria4.jpeg" alt="Memória 4">
+                <img src="memoria5.jpeg" alt="Memória 5">
+                <img src="memoria6.jpeg" alt="Memória 6">
+            </div>
+            <button id="prev-memory">Anterior</button>
+            <button id="next-memory">Próxima</button>
+        </div>
+        
+        <div id="poem" class="section hidden">
+            <p>No vasto cosmos, nosso amor brilha,<br>
+               Como estrelas em noite sem fim.<br>
+               Tu és meu sol, eu sou tua lua,<br>
+               Juntos, eternos, além do espaço sem fim.</p>
+        </div>
+        
+        <div id="constellation" class="section hidden">
+            <svg width="300" height="300" viewBox="0 0 300 300">
+                <!-- Constellation will be drawn here -->
+            </svg>
+        </div>
+        
+        <div id="find-star-game" class="section hidden">
+            <h2>Encontre a Estrela do Nosso Amor</h2>
+            <p>Clique na estrela especial que brilha mais forte!</p>
+            <!-- Game area will be populated by JavaScript -->
+        </div>
+
+        <div id="romantic-dates" class="section hidden">
+            <h2>Gerador de Encontros Românticos</h2>
+            <p id="date-idea"></p>
+            <button id="generate-date">Gerar Ideia de Encontro</button>
+        </div>
+
+        <div id="message-board" class="section hidden">
+            <h2>Mural de Mensagens</h2>
+            <input type="password" id="message-password" placeholder="Senha">
+            <button id="unlock-messages">Desbloquear</button>
+            <div id="messages-container" class="hidden"></div>
+            <textarea id="new-message" placeholder="Digite sua mensagem" class="hidden"></textarea>
+            <button id="send-message" class="hidden">Enviar Mensagem</button>
+        </div>
+
+        <div id="our-future" class="section hidden">
+            <h2>Nosso Futuro</h2>
+            <textarea id="future-goals" placeholder="Digite seus sonhos e metas para o futuro"></textarea>
+            <button id="save-goals">Salvar</button>
+            <div id="saved-goals"></div>
+        </div>
+
+        <div id="virtual-garden" class="section hidden">
+            <h2>Nosso Jardim Virtual</h2>
+            <div id="plants-container"></div>
+        </div>
+
+        <div id="music-album" class="section hidden">
+            <h2>Nosso Álbum de Músicas (Em construção)</h2>
+            <ul id="playlist"></ul>
+            <audio id="audio-player" controls></audio>
+        </div>
+        
+        <button id="special-message">Explorar Nosso Universo</button>
+        <button id="toggle-music" class="hidden">Tocar Música</button>
+    </div>
+    <audio id="background-music" loop>
+        <source src="videoplayback (1).m4a" type="audio/mpeg">
+    </audio>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
